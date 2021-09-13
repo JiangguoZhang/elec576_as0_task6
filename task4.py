@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
-x = np.linspace(0, 10, 100)
+x = np.linspace(0, 2 * np.pi, 100)
 y = np.sin(x)
 plt.plot(x, y)
-plt.axis([0, 10, -1, 1])
+plt.axis([0, 2 * np.pi, -1.1, 1.1])
 plt.show()
